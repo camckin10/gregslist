@@ -1,0 +1,85 @@
+nav {
+  height: 60px;
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0 37px;
+  float: right;
+  display: inline-block;
+  position: relative;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    color: blue;
+    background: gray;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+
+}
+
+h1 a {
+    float: left;
+    padding: 0 37px;
+}
+
+h2 {
+    padding-top: 6em;
+    /*-webkit-margin-before: 0 em;
+    -webkit-margin-after: 0 em;*/
+    margin-bottom: 0;
+}
+
+input#searchbox {
+    height: 21px;
+    width: 263px;
+    writing-mode: vertical-lr;
+    vertical-align: bottom;
+    border: 1px solid gray;
+}
+
+img {
+    width: 21px;
+    height: 21px;
+    /* border-color: gray; */
+    border: 1px solid gray;
+    vertical-align: bottom;
+    margin-left: 13px;
+}
+
+.search-pages {
+   height:60px;
+   position:fixed;
+   width:100%;
+}
+
+.pages-buttons {
+    font-size: 16px;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+
+.pages-display {
+    font-size: 16px;
+    padding: 0 30px;
+    padding: 8px 25px;
+    /*border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;*/
+}
+
+h4 {
+  padding:53px;
+}
