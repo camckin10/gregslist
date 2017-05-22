@@ -1,8 +1,14 @@
+body {
+  padding:80px;
+}
+
 nav {
   height: 60px;
   background-color: grey;
   position: fixed;
-  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0
 }
 
 nav ul {
@@ -28,6 +34,15 @@ nav > ul > li > a {
     padding: 0.5em 0.5em;
     text-decoration: none;
 
+}
+
+a.link {
+    color: blue;
+    /* background: gray; */
+    display: inline-block;
+    line-height: 2em;
+    padding: 2px;
+    text-decoration: none;
 }
 
 h1 a {
@@ -61,8 +76,9 @@ img {
 
 .search-pages {
    height:60px;
-   position:fixed;
-   width:100%;
+   position:relative;
+   display:block;
+   width:;
 }
 
 .pages-buttons {
