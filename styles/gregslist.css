@@ -1,14 +1,10 @@
-body {
-  padding:80px;
-}
 
-nav {
+
+.navigation-bar {
   height: 60px;
   background-color: grey;
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0
+  width:100%
 }
 
 nav ul {
@@ -75,10 +71,12 @@ img {
 }
 
 .search-pages {
-   height:60px;
-   position:relative;
-   display:block;
-   width:;
+   display:inline-block;
+   font-size:0;
+   margin-bottom:30px;
+   border:1px solid #DDDDDD;
+   border-radius:3px;
+
 }
 
 .pages-buttons {
@@ -86,6 +84,7 @@ img {
     display: inline-block;
     padding: 8px 15px;
     border-radius: 3px;
+    border:1px solid #DDDDDD;
 }
 
 .pages-display {
@@ -97,5 +96,5 @@ img {
 }
 
 h4 {
-  padding:53px;
+  margin:20px;
 }
